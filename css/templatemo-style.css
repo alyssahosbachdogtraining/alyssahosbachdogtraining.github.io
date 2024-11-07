@@ -39,6 +39,10 @@ p {
     line-height: 1.8;
 }
 
+.container {
+    max-width: 1920px;
+}
+
 .tm-box-center {
     display: -webkit-box;
     display: -ms-flexbox;
