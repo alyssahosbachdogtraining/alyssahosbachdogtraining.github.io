@@ -1,172 +1,619 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js" >
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="Font-Awesome-6.6.0/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/templatemo-style.css">
 
-    <meta name="description" content="Business webpage for Alyssa Hosbach Dog Training in Chico, California">
-    <meta name="keywords" content="Hosbach, Dog Training, Canine, Positive Reinforcement, Force-free, Chico">
-    <meta name="author" content="Robert Hosbach">
-    
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alyssa Hosbach Dog Training</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-<!--
-Catalyst Template
-http://www.templatemo.com/tm-499-catalyst
--->
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+    
+    <!--- FontAwesome icons
+    ================================================== -->
+    <script src="https://kit.fontawesome.com/ce034ec68c.js" crossorigin="anonymous"></script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
 </head>
 
-<body>
+
+<body id="top">
+
     
-    <div class="container">
-        <section class="col-md-12 content" id="home">
-           <div class="col-lg-6 col-md-6 content-item tm-black-translucent-bg tm-logo-box">
-              <i class="fa-solid fa-paw fa-4x tm-logo"></i>
-              <h1 class="text-uppercase">Alyssa Hosbach Dog Training</h1>
-              <h2>positive | effective | fun</h2>
-              <br>
-              <h5>Serving Chico, CA and surrounding areas</h5>
-               
-           </div>
-           <div class="col-lg-6 col-md-6 content-item content-item-1 background tm-white-translucent-bg">
-               <h1 class="main-title text-center dark-blue-text">Welcome!</h1>
-               <p class="text-center dark-blue-text"><b>Sign up <a style="color:#1ba39c;" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdApYwoW-ZgqZmdQ3ala4dHWH4oaJqsBOMYYkDa3GMZR7GN3g/viewform?usp=sharing&ouid=104914338282668659455">HERE</a> for classes and private lessons today!</b></p>
-               <p>As a certified dog trainer and behavior consultant, my mission is to provide effective, humane, and scientifically sound dog training and care.
-                  I exclusively use positive reinforcement training methods because they are not only effective, but they will also strengthen the trust and relationship you have with your fur-child.
-               </p>  
-               <p>With nearly a decade of professional dog training experience, I provide modern dog training that's ethical and fun for the whole family!
-                  I can work with any age and breed of dog in the areas of puppy manners, house training, fear, aggression, therapy and service dog work, Canine Good Citizen, leash reactivity, jumping, barking, biting, grooming, tricks, and more!</p>             
-               <p class="text-center dark-blue-text"><b>Sign up <a style="color:#1ba39c;" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdApYwoW-ZgqZmdQ3ala4dHWH4oaJqsBOMYYkDa3GMZR7GN3g/viewform?usp=sharing&ouid=104914338282668659455">HERE</a> for classes and private lessons today!</b></p>
-           </div>
-       </section>
-
-       <section class="col-md-12 content padding tm-float-section tm-section-3">
-
-        <div class="col-lg-6 col-md-6 content-item tm-black-translucent-bg"></div>
-        <div class="col-lg-6 col-md-6 content-item tm-white-translucent-bg"></div>
-        
-        <div class="tm-float-section-header">
-          <h2 class="text-center tm-white-text tm-section-3-header">Services</h2>
-          <div class="text-center tm-white-text tm-section-3-pricing">
-            <a target="_blank" href="https://docs.google.com/document/d/1NCk7MC5jAclChZXwOKhwnrEUBl19H3RKEythyN6irSw/edit?usp=sharing"><b>pricing information</b></a> | <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdApYwoW-ZgqZmdQ3ala4dHWH4oaJqsBOMYYkDa3GMZR7GN3g/viewform?usp=sharing&ouid=104914338282668659455"><b>lesson/class intake form</b></a>
-          </div>
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-  
-        <div class="tm-float-section-body tm-white-bg">
-          <div class="col-lg-12" style="color:#1ba39c">
-            <div class="col-md-4 col-lg-4">
-              <i class="fa fa-user fa-4x tm-fa-icon"></i>
-              <p class="text-center" style="color:black">Single and packaged in-person private consults</p>
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <i class="fa fa-desktop fa-4x tm-fa-icon"></i>
-              <p class="text-center" style="color:black">Virtual (Zoom-based) private consults</p>
-            </div>
-            <div class="col-md-4 col-lg-4">
-              <i class="fa fa-users fa-4x tm-fa-icon"></i>
-              <p class="text-center" style="color:black">In-home group class series</p>
-            </div>
-          </div>
-        </div>
-          
-        </section>
-
-       <section class="col-md-12 content padding tm-equal-col-container">
-        <div class="col-lg-6 col-md-6 col-sm-12 content-item tm-black-translucent-bg tm-services-section-padding">
-          <h2 class="main-title text-center dark-blue-text">About me</h2>
-          <ul>
-            <li>Trainer-instructor at Canine Connection in Chico, CA (2019-2024)</li>
-            <li>Owner of Dancing Tails Dog Training in Berkeley, CA (2015-2018)</li>
-            <li>Certified Behavior and Training Consultant by the <a target="_blank" href="https://dtia.mylearnworlds.com/">Dog Training Internship Academy</a></li>
-            <li>Member of the <a target="_blank" href="https://www.petprofessionalguild.com/">Pet Professional Guild</a></li>
-            <li>B.S. Animal Science (Cal Poly, San Luis Obispo) | M.A. Environment & Community (Humboldt State University)</li> 
-            <li>Marine Mammal Trainer for Dolphin Quest, Bermuda</li>
-          </ul>
-       </div>
-       <div class="col-lg-6 col-md-6 col-sm-12 tm-white-translucent-bg tm-services-section-padding tm-box-center">
-
-          <div class="tm-left-col">
-            <div class="tm-border-box tm-gray-border-br tm-img-box-1">
-              <picture>
-                <source srcset="images/Walking-On-Leash-standard-275w.webp">
-                <img src="images/Walking-On-Leash-standard-275w.jpg" alt="Training: walking on leash" class="tm-img tm-img-tl">  
-              </picture>
-            </div>  
-             <div class="tm-border-box tm-blue-border-bl tm-img-box-2">
-              <picture>
-                <source srcset="images/Sit-French-Bulldog-standard-275w.webp">
-                <img src="images/Sit-French-Bulldog-standard-275w.jpg" alt="Training: sit" class="tm-img tm-img-bl">  
-              </picture>  
-            </div> 
-               
-          </div>
-
-          <div class="tm-right-col">
-             <div class="tm-border-box tm-blue-border-tr tm-img-box-3">  
-              <picture>
-                <source srcset="images/Sit-standard-275w.webp">
-                <img src="images/Sit-standard-275w.jpg" alt="Training: sit" class="tm-img tm-img-tr">  
-              </picture>
-             </div>
-            <div class="tm-border-box tm-gray-border-tl tm-img-box-4">
-              <picture>
-                <source srcset="images/Lay-Golden-Retriever-standard-275w.webp">
-                <img src="images/Lay-Golden-Retriever-standard-275w.jpg" alt="Training: lay down" class="tm-img tm-img-br">  
-              </picture>
-            </div>  
-          </div>
-                      
-       </div>
-
-      </section>
-
-   <section class="col-md-12 content" id="contact">
-       <div class="col-lg-6 col-md-6 content-item tm-content-box tm-black-translucent-bg">
-           <h2 class="main-title text-center dark-blue-text">Get in touch!</h2>
-           <h4>Call me for a FREE phone consultation and sign up <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdApYwoW-ZgqZmdQ3ala4dHWH4oaJqsBOMYYkDa3GMZR7GN3g/viewform?usp=sharing&ouid=104914338282668659455">HERE</a> for classes and private lessons!</h4>
-           <p>
-             Tel: (805) 302-4691<br>
-             Email: <a href="mailto:alyssa.hosbach@gmail.com">alyssa.hosbach@gmail.com</a><br>
-           </p>
-           <h4>You can also follow me and my fur-child, Biscuit:</h4>
-           <p>
-            <i class="fa-brands fa-facebook"></i> <a target="_blank" href="https://www.facebook.com/people/Alyssa-Hosbach-Dog-Training/61568173207389/">Alyssa Hosbach Dog Training</a>
-            <br>
-            <i class="fa-brands fa-instagram"></i> <a target="_blank" href="https://www.instagram.com/biscuit_the_basset_hound/#">@biscuit_the_basset_hound</a>
-           </p>
-           
-       </div>
-       <div class="col-lg-6 col-md-6 content-item tm-content-box tm-white-translucent-bg">
-        <div class="tm-border-box tm-blue-border-bl tm-img-box-2">
-          <picture>
-            <source srcset="images/portrait-500w.webp">
-            <img src="images/portrait-500w.jpg" alt="Alyssa Hosbach portrait" class="tm-img tm-img-bl">  
-          </picture>
-        </div> 
-       </div>
-
-</section>
-
-</div>
-
-<div class="text-center footer">
-	<div class="container">
-		Copyright &copy; <span id="tm-current-year">2024</span> Alyssa Hosbach Dog Training, Chico, CA
-        
-        | Design: <a href="http://www.templatemo.com" target="_parent">templatemo</a>
     </div>
-</div>
 
-<script>
 
-// Write current year in copyright text.
-  document.getElementById("tm-current-year").textContent = new Date().getFullYear();
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap ss-home">
 
-</script>
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="row s-header__inner width-sixteen-col">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo_white.svg" alt="Homepage">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">
+    
+                    <ul class="s-header__menu-links">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a target="_blank" href="https://docs.google.com/document/d/1NCk7MC5jAclChZXwOKhwnrEUBl19H3RKEythyN6irSw/edit?tab=t.0#heading=h.37a9753q513f">Pricing</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul> <!-- s-header__menu-links -->
+
+                    <div class="s-header__contact">
+                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Let's work together!</a>                        
+                    </div> <!-- s-header__contact -->
+    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+
+        </header> <!-- end s-header -->
+
+
+        <!-- # site main content
+        ================================================== -->
+        <section id="content" class="s-content">
+
+            <!-- intro
+            ----------------------------------------------- -->
+            <section id="intro" class="s-intro">
+
+                <div class="row s-intro__content width-sixteen-col">
+
+                    <div class="column lg-12 s-intro__content-inner grid-block">
+                        
+                        <div class="s-intro__content-text">
+                            <div class="s-intro__content-pretitle text-pretitle" style="color: hsla(165, 70%, 47%, 1); font-weight: bold">Alyssa Hosbach Dog Training</div>
+                            <h1 class="s-intro__content-title">
+                            Dog training <br>
+                            that is ethical, <br>
+                            science-based, <br>  
+                            and effective
+                            </h1>
+                            <p>Serving Chico, California and surrounding areas since 2024.</p>
+                        </div> <!-- s-intro__content-text -->
+
+                        <div class="s-intro__content-media"> 
+                            <div class="s-intro__content-media-inner">                               
+                                <img src="images/alyssa_portrait_1x.jpg" srcset="images/alyssa_portrait_1x.jpg 1x, images/alyssa_portrait_2x.jpg 2x" alt="">
+                                <div class="lines">                               
+                                    <span></span>                                  
+                                </div>
+                            </div>
+                        </div> <!-- s-intro__content-media -->                      
+
+                        <div class="s-intro__scroll-down">
+                            <a href="#about" class="smoothscroll">
+                                <div class="scroll-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#97b34a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="7 13 12 18 17 13"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                                </div>
+                                <span>Scroll for more</span>
+                            </a>
+                        </div> <!-- s-intro__scroll-down -->
+                        
+                    </div> <!-- s-intro__content-inner -->
+
+                </div> <!-- s-intro__content -->
+
+            </section> <!-- end s-intro -->
+
+            <!-- about
+            ----------------------------------------------- -->
+            <section id="about" class="s-about target-section">
+
+                <div class="row s-about__content width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
+
+                        <img src="images/geometric_shape.svg" alt="" class="s-about__content-imgbg">
+
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle"></div>                           
+                            <h2 class="text-display-title">
+                            I love helping dogs and their people thrive.
+                            </h2>                           
+                        </div> <!-- end section-header -->
+
+                        <div class="s-about__content-main grid-section-split__primary">
+                            <p class="attention-getter">
+                            As a certified Dog Trainer and Behavior Consultant, graduating from the "Harvard" of dog training schools, my mission is to provide ethical, science-backed, and fear-free dog training and behavior modification to each family I work with. By working together, I help bridge the communication gap between you and your dog—teaching you what your dog needs and showing your dog what you need in a clear, compassionate, and effective way.
+                            </p>
+
+                            <p class="attention-getter">
+                            With over a decade of professional dog training experience, plus a background in marine mammal training, I am passionate about bringing force-free dog training to Butte County. I follow the position statement put forth by the American Veterinary Society of Animal Behavior (AVSAB) that recommends only using positive reinforcement methods. Current research shows that punishment-based training methods—such as prong, shock, choke, and e-collars—can increase fear, anxiety, and aggression in dogs and are not recommended. Instead, marker training with positive reinforcement promotes faster learning, longer-lasting results, and an enjoyable experience for the whole family.
+                            </p>
+                        </div> <!-- end s-about__content-main -->
+
+                        <div class="s-about__content-btn grid-section-split__bottom">
+                            <a href="about.html" class="btn btn--stroke u-fullwidth">More About Me</a>
+
+                            <ul class="s-about__social social-list">
+                                <li>
+                                    <a target="_blank" href="https://www.facebook.com/people/Alyssa-Hosbach-Dog-Training/61568173207389/">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                                        <span class="u-screen-reader-text">Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.instagram.com/biscuit_the_basset_hound/#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                                        <span class="u-screen-reader-text">Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://www.youtube.com/channel/UCsM9t3PX5wriPBHigH9intw">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M581.7 188.1C575.5 164.4 556.9 145.8 533.4 139.5C490.9 128 320.1 128 320.1 128C320.1 128 149.3 128 106.7 139.5C83.2 145.8 64.7 164.4 58.4 188.1C47 231 47 320.4 47 320.4C47 320.4 47 409.8 58.4 452.7C64.7 476.3 83.2 494.2 106.7 500.5C149.3 512 320.1 512 320.1 512C320.1 512 490.9 512 533.5 500.5C557 494.2 575.5 476.3 581.8 452.7C593.2 409.8 593.2 320.4 593.2 320.4C593.2 320.4 593.2 231 581.8 188.1zM264.2 401.6L264.2 239.2L406.9 320.4L264.2 401.6z"/></svg>
+                                        <span class="u-screen-reader-text">YouTube</span>
+                                    </a>
+                                </li>
+                            </ul> <!-- end s-footer__social -->
+                        </div> <!-- end s-about__content-btn -->
+                    
+                    </div> <!-- content-inner -->
+                </div>
+                
+            </section> <!-- end s-about -->
+
+            <!-- expertise
+            ----------------------------------------------- -->
+            <section id="expertise" class="s-expertise">
+
+                <div class="row s-expertise__content width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">Expertise</div>                           
+                            <h2 class="text-display-title">
+                            My key areas of expertise.
+                            </h2>     
+                            
+                            <p class="lead">
+                            Along with these highlights, view my <a target="_blank" style="color: hsla(165, 70%, 47%, 1); font-weight: bold" href="https://docs.google.com/document/d/1NCk7MC5jAclChZXwOKhwnrEUBl19H3RKEythyN6irSw/edit?usp=sharing">pricing information</a>.  If you're ready to work with me, please fill out my <a target="_blank" style="color: hsla(165, 70%, 47%, 1); font-weight: bold" href="https://docs.google.com/forms/d/e/1FAIpQLSdApYwoW-ZgqZmdQ3ala4dHWH4oaJqsBOMYYkDa3GMZR7GN3g/viewform?usp=sharing&ouid=104914338282668659455">lesson/class intake form</a>.
+                            </p>
+                        </div> <!-- end section-header -->
+
+                        <div class="s-expertise__content-main grid-section-split__primary">
+
+                            <div class="grid-list-items list-items show-ctr">
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Fear, Aggression, & Reactivity</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                        I specialize in working with dogs who struggle with fear, reactivity, and aggression, and I know how overwhelming those challenges can feel. Using compassionate, science-based methods, each consultation is designed to help you understand your dog’s behavior while giving you realistic tools to build safety, confidence, and transform how your dog feels about the world. Whether you’re dealing with resource guarding, handling sensitivities, dog-dog fights, or on-leash barking and lunging, I’m here to support both you and your dog.
+                                    
+                                        </p>
+                                    </div>
+                                </div> <!-- list-item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Puppy, Adolescent, and Adult Dogs</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                        With more than ten years of experience, I’ve worked with dogs of all ages, stages, and personalities—and I love helping families build strong communication with their dogs. Using ethical, science-based training, I’ll support you in developing reliable manners, confidence, and calm behavior in real-world situations. From recall and loose-leash walking to puppy raising, polite greetings, and attention around distractions, I’ll help set you and your dog up for success.
+    
+                                        </p>
+                                    </div>
+                                </div> <!-- list-expertise__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="grid-list-items__title list-items__item-header">
+                                        <h3 class="list-items__item-title">Dog, Baby, Toddler, and Kid Safety</h3>
+                                    </div>
+                                    <div class="grid-list-items__text list-items__item-text">
+                                        <p>
+                                        As both a mom and a certified trainer, I’ve personally navigated the many seasons of raising children and dogs together—from managing a newborn alongside a grumpy, high-needs dog, to supporting a toddler around a resource-guarding dog and a biting puppy, to balancing life with a school-aged child and a young dog. These real-life experiences, combined with my professional expertise, make me Chico’s trusted resource for creating safety and harmony between dogs, babies, toddlers, and kids.
+                                        
+                     
+                                        </p>
+                                    </div>
+                                </div> <!-- list-expertise__item -->
+                            </div> <!-- grid-list-items -->
+                        </div> <!-- end s-expertise__content-main -->
+
+                        <div class="s-expertise__content-btn grid-section-split__bottom">
+                            <a href="services.html" class="btn btn--stroke u-fullwidth">View All Services</a>
+                        </div> <!-- end s-about__content-btn -->
+
+                    </div> <!-- end grid-block-->
+                </div> <!-- end s-expertise__content -->
+
+            </section> <!-- end s-expertise -->
+
+            <!-- clients
+            ----------------------------------------------- -->
+            <section id="clients" class="s-clients">          
+
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12 grid-block grid-section-split">
+                    
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle"></div>                           
+                            <h2 class="text-display-title">
+                            I work <em>with</em> you to get stellar results!
+                            </h2>       
+                        </div> <!-- end section-header -->
+                    
+                        <div class="grid-section-split__primary">
+                            <p class="lead">
+                            I take great pride in supporting my clients and their dogs, working collaboratively to help them succeed in the areas that matter most. I listen to your goals, understand your challenges, and design a customized training plan tailored to your dog, your family, and your lifestyle—so you see meaningful, lasting results.
+                            
+                            
+                         
+                            </p>   
+
+                            <p>
+                            See the <a target="_blank" style="color: black; text-decoration: underline; font-weight: bold" href="https://www.google.com/search?sca_esv=553662a091277ec5&rlz=1C1VDKB_enUS1090US1093&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E7qd7z3lryyFCkScOcu3_FN4xZymxulJechA8EAyEIkrlVw9yOuscbhhur-WQOcAJlIi3Xq0bvBidzmbPRdi-xY3j9qJYRcRfrV5-YV34ZjFgw7LNw%3D%3D&q=Alyssa+Hosbach+Dog+Training+Reviews&sa=X&ved=2ahUKEwij3ZPUxOaRAxUROzQIHRiHKrUQ0bkNegQIJxAD">Google reviews</a> from some of my satisfied clients below!
+                            </p>
+                        </div> <!-- end grid-section-split__primary -->
+                    
+                    </div> <!-- end column -->
+                </div> <!-- end row -->
+                
+                <!-- 
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12">
+                    
+                        <div class="clients-list">                            
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/flash.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/rise.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/cactus.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/pinpoint.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/proline.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/vision.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="column clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/volume.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="column clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/hitech.svg" alt="">
+                                </a>
+                            </div><div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/terra.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="clients-list__item">
+                                <a href="#0">
+                                    <img src="images/clients/chain.svg" alt="">
+                                </a>
+                            </div>
+                        </div> 
+
+                    </div> 
+                </div> end row-->
+                                
+                <div class="row s-clients__content-block width-sixteen-col">
+                    <div class="column xl-12 testimonials">
+                    
+                        <div class="swiper-container testimonials__slider home-slider">
+
+                            <div class="swiper-wrapper">
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Alyssa is wonderful!
+                                    We got our cute little Jack Russell in 2020, and to say I had some worries considering her breed and the stigma of her breed was an understatement.
+                                    Alyssa was awesome with helping us teach Lucy early on what a soft bite was, helped us with crate training tips and tricks, and has continued to be a great resource as Lucy has grown older.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/haley_mccarty.png" alt="Haley McCarty image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>Haley McCarty</strong>
+                                            <span>Client</span>
+                                        </cite>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Alyssa was such a strong influence in the training of our puppy.
+                                    He was so unruly and wild.
+                                    After spending an hour a week with her and us working on him at home, he is now the most well-behaved and complimented dog I've ever seen.
+                                    Highly recommended.
+                                    Thanks Alyssa!
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/don_spencer.png" alt="Don Spencer image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>Don Spencer</strong>
+                                            <span>Client</span>
+                                        </cite>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    I encountered Alyssa during a puppy training class.
+                                    I really appreciated the very clear instructions and the coaching she provided to help me teach my puppy basic manners.
+                                    She was full of tips to help me adjust to having a new puppy.
+                                    My 6 weeks of training with Alyssa was a great start to teaching me and my puppy manners and it alleviated the stress of having a misbehaved dog.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/rachael_slater.png" alt="Rachael Slater image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>Rachael Slater</strong>
+                                            <span>Client</span>
+                                        </cite>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    I'm so grateful for Alyssa and her positive, compassionate approach to dog training.
+                                    She's helped my fear-based reactive dog become so much more comfortable and confident in his environment.
+                                    Her guidance and practical tips have made a huge difference for both of us.
+                                    I highly recommend her to anyone looking for a thoughtful, effective, and kind trainer.
+                                    Thank you for empowering me to support my pup with patience, knowledge, and understanding—we're both so much happier thanks to you!
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/mieke_dewitt.png" alt="Mieke DeWitt image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>Mieke DeWitt</strong>
+                                            <span>Client</span>
+                                        </cite>
+                                    </div>
+                                </div>
+                                <div class="testimonials__slide swiper-slide">
+                                    <p>
+                                    Alyssa came to our house for a 1.5 hour consultation.
+                                    She was so sweet and understanding with my puppy.
+                                    All of our questions and concerns were answered….she had an explanation for everything and it all came together to make sense.
+                                    She gave us ideas that we hadn't thought of and made us feel comfortable with having a new puppy.
+                                    We will be doing her weekly group classes starting soon.
+                                    </p>
+                                    <div class="testimonials__author">
+                                        <img src="images/avatars/sage_bowman.png" alt="Sage Bowman image" class="testimonials__avatar">
+                                        <cite class="testimonials__cite">
+                                            <strong>Sage Bowman</strong>
+                                            <span>Client</span>
+                                        </cite>
+                                    </div>
+                                </div> 
+                            </div> <!-- end swiper-wrapper --> 
+
+                            <div class="swiper-pagination"></div>
+
+                        </div> <!--end testimonials__slider -->                    
+                    
+                    </div> <!-- end column -->
+                </div> <!-- end row -->
+
+
+            </section> <!-- end s-clients -->            
+
+        </section> <!-- s-content-->
+
+        <!-- # cta
+        ================================================== -->
+        <section id="cta" class="s-cta">
+
+            <div class="row row-x-center text-center">
+                <div class="column xl-8 lg-12">
+
+                    <div class="s-cta__content">
+                        <h2 class="text-display-title">
+                        Get started with a consultation today!
+                        </h2>
+                        <a href="contact.html" class="btn btn--primary">Let's Work Together!</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </section> <!-- end s-cta -->
+
+        <!-- # journal
+        ================================================== 
+        <section id="journal" class="s-journal">
+
+            <div class="row s-journal__content width-sixteen-col">
+                <div class="column xl-12 grid-block">
+
+                    <div class="grid-full section-header text-center">
+                        <div class="text-pretitle">Recent Articles</div>                           
+                        <h2 class="text-display-title">
+                        Latest articles from my blog.
+                        </h2>  
+                    </div> 
+
+                    <div class="grid-full s-journal__content-main grid-list-items">
+
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="https://www.dreamhost.com/r.cgi?287326">Sponsored</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="https://www.dreamhost.com/r.cgi?287326">Need Web Hosting for Your Websites?</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Need hosting for your website? We would highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
+                                Enjoy 100% in-house support, guaranteed performance and uptime, 1-click installs, and a super-intuitive control 
+                                panel to make managing your websites and projects easy. <a href="https://www.dreamhost.com/r.cgi?287326">Sign up</a> now to get started.
+                                </p>
+                            </div>
+                        </div> 
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="blog.html">Productivity</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="single.html">5 Marketing Productivity Apps for Your Team</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Rerum quam quos. Quibusdam quis autem voluptatibus earum vel ex error ea magni. Aut asperiores 
+                                sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                </p>
+                            </div>
+                        </div> 
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="blog.html">SEO</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="single.html">7 SEO Factors to Consider for Better Website Ranking</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
+                                sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="blog.html">Productivity</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="single.html">5 Effective Web Design Principles</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ullam et laborum aperiam. 
+                                Dignissimos quae voluptatibus ullam esse sapiente fugiat, rerum labore cupiditate obcaecati 
+                                dolore necessitatibus id magni rem officia dolor nam sit laudantium. Quo eaque eveniet quibusdam unde. 
+                                </p>
+                            </div>
+                        </div> 
+
+                    </div> 
+
+                </div> 
+            </div> 
+
+        </section>  end s-journal -->
+
+
+        <!-- # footer 
+        ================================================== -->
+        <footer class="s-footer">
+            <div class="row s-footer__content">
+                <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
+                    <h3>Alyssa Hosbach Dog Training</h3>
+                    <p>
+                    Serving Chico, California and surrounding areas.<br>
+                    Ethical and fear-free since 2014.
+                    </p>               
+                </div>                
+                <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
+                    <h3>Site Links</h3>
+                    <ul class="link-list">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a target="_blank" href="https://docs.google.com/document/d/1NCk7MC5jAclChZXwOKhwnrEUBl19H3RKEythyN6irSw/edit?tab=t.0#heading=h.37a9753q513f">Pricing</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>    
+            
+            <div class="row s-footer__bottom">
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/people/Alyssa-Hosbach-Dog-Training/61568173207389/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
+                                <span class="u-screen-reader-text">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/biscuit_the_basset_hound/#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M11.999,7.377c-2.554,0-4.623,2.07-4.623,4.623c0,2.554,2.069,4.624,4.623,4.624c2.552,0,4.623-2.07,4.623-4.624 C16.622,9.447,14.551,7.377,11.999,7.377L11.999,7.377z M11.999,15.004c-1.659,0-3.004-1.345-3.004-3.003 c0-1.659,1.345-3.003,3.004-3.003s3.002,1.344,3.002,3.003C15.001,13.659,13.658,15.004,11.999,15.004L11.999,15.004z"></path><circle cx="16.806" cy="7.207" r="1.078"></circle><path d="M20.533,6.111c-0.469-1.209-1.424-2.165-2.633-2.632c-0.699-0.263-1.438-0.404-2.186-0.42 c-0.963-0.042-1.268-0.054-3.71-0.054s-2.755,0-3.71,0.054C7.548,3.074,6.809,3.215,6.11,3.479C4.9,3.946,3.945,4.902,3.477,6.111 c-0.263,0.7-0.404,1.438-0.419,2.186c-0.043,0.962-0.056,1.267-0.056,3.71c0,2.442,0,2.753,0.056,3.71 c0.015,0.748,0.156,1.486,0.419,2.187c0.469,1.208,1.424,2.164,2.634,2.632c0.696,0.272,1.435,0.426,2.185,0.45 c0.963,0.042,1.268,0.055,3.71,0.055s2.755,0,3.71-0.055c0.747-0.015,1.486-0.157,2.186-0.419c1.209-0.469,2.164-1.424,2.633-2.633 c0.263-0.7,0.404-1.438,0.419-2.186c0.043-0.962,0.056-1.267,0.056-3.71s0-2.753-0.056-3.71C20.941,7.57,20.801,6.819,20.533,6.111z M19.315,15.643c-0.007,0.576-0.111,1.147-0.311,1.688c-0.305,0.787-0.926,1.409-1.712,1.711c-0.535,0.199-1.099,0.303-1.67,0.311 c-0.95,0.044-1.218,0.055-3.654,0.055c-2.438,0-2.687,0-3.655-0.055c-0.569-0.007-1.135-0.112-1.669-0.311 c-0.789-0.301-1.414-0.923-1.719-1.711c-0.196-0.534-0.302-1.099-0.311-1.669c-0.043-0.95-0.053-1.218-0.053-3.654 c0-2.437,0-2.686,0.053-3.655c0.007-0.576,0.111-1.146,0.311-1.687c0.305-0.789,0.93-1.41,1.719-1.712 c0.534-0.198,1.1-0.303,1.669-0.311c0.951-0.043,1.218-0.055,3.655-0.055c2.437,0,2.687,0,3.654,0.055 c0.571,0.007,1.135,0.112,1.67,0.311c0.786,0.303,1.407,0.925,1.712,1.712c0.196,0.534,0.302,1.099,0.311,1.669 c0.043,0.951,0.054,1.218,0.054,3.655c0,2.436,0,2.698-0.043,3.654H19.315z"></path></svg>
+                                <span class="u-screen-reader-text">Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.youtube.com/channel/UCsM9t3PX5wriPBHigH9intw">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M581.7 188.1C575.5 164.4 556.9 145.8 533.4 139.5C490.9 128 320.1 128 320.1 128C320.1 128 149.3 128 106.7 139.5C83.2 145.8 64.7 164.4 58.4 188.1C47 231 47 320.4 47 320.4C47 320.4 47 409.8 58.4 452.7C64.7 476.3 83.2 494.2 106.7 500.5C149.3 512 320.1 512 320.1 512C320.1 512 490.9 512 533.5 500.5C557 494.2 575.5 476.3 581.8 452.7C593.2 409.8 593.2 320.4 593.2 320.4C593.2 320.4 593.2 231 581.8 188.1zM264.2 401.6L264.2 239.2L406.9 320.4L264.2 401.6z"/></svg>
+                                <span class="u-screen-reader-text">YouTube</span>
+                            </a>
+                        </li>
+                    </ul> <!-- end s-footer__social -->
+                </div>
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>© Copyright Monica 2022</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                    </p>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                    </a>
+                </div> <!-- end ss-go-top -->
+            </div>
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>
