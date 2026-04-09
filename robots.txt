@@ -1,0 +1,10 @@
+# Allow all search engines to crawl the entire site
+User-agent: *
+Allow: /
+
+# Disallow specific technical or hidden directories (if applicable)
+Disallow: /README.md
+Disallow: /LICENSE
+
+# Link to your XML Sitemap to help indexing
+Sitemap: https://alyssahosbachdogtraining.github.io/sitemap.xml
